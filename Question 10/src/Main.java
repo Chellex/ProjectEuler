@@ -11,7 +11,7 @@ public class Main {
 	
 	public static boolean isPrime(int number){
 		for(int x = 2; x <= Math.sqrt(number); x++){
-			if(number % x == 0){
+			if(number % x == 0 && number != 1){
 				return false;
 			}
 		}

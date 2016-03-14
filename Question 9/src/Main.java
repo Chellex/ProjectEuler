@@ -7,7 +7,6 @@ public class Main {
 			for(int b = 0; b < 500; b++){
 				cSquared = (int)Math.pow(a, 2) + (int)Math.pow(b, 2);
 				if(a + b + Math.sqrt(cSquared) == 1000){
-					System.out.println("a: " + a + '\n' + "b: " + b + '\n' + "c: " + Math.sqrt(cSquared));
 					System.out.println((long)(a*b*Math.sqrt(cSquared)));
 				}
 			}
